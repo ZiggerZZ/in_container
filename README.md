@@ -17,4 +17,4 @@ print(in_container()) # True or False
 
 ## License
 
-MIT
+[MIT](https://github.com/ZiggerZZ/in_container/blob/master/LICENSE)
