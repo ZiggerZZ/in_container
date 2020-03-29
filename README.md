@@ -1,9 +1,20 @@
-# In_container
+# in-container
 
-*In_container* allows you to check if you are running your program inside a Docker container.
+> Allows you to check if you program is running inside a Docker container
 
-Like this:
+## Install
+
+```
+$ pip install in-container
+```
+
+## Usage
+
 ```python
 from in_container import in_container
 print(in_container()) # True or False
 ```
+
+## License
+
+MIT
