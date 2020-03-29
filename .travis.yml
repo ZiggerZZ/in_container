@@ -8,6 +8,7 @@ deploy:
   user: ZiggerZZ
   password:
     secure: VyK8ma08jFS5GR2wMbZLWk4o1SYkI79a2NAwZs25L1abAYlIIbCAiOuBepZfqU84X+lrbpogqexG7BpFIfXVlJzTtJYuUhcVpuvVvXysuR8NJ7/oj4ohuD1uwENAAxqndZfDJUAAv9qDYE15S16qvSVlLbvlpRpv6XgPleGZ/V/ckYa6FVhZP0xDRgtpZEkct3aJQicNgy5LTkR7/wrtDzFkYvbnOT0G1EHOp/+2FlJ7QMGli+J58EWfvn38c8otp3QfHBz42jhj0AsZVK0Q/OMSqHxxdVz1t/PfbF0C6qcc704yta9ZU14xHQW74G2ohk8fpMq0lKKmjR3hiMNjGsTTGIhX9DckbQejbMqHS7efiLcLgH2BcEp8Cj7ejTWALCkRj4cjK1IUCsQ49yzPret9RTuc39+y8l1yRqsgbkhBjY7/vg+tk3uRJuRxQeqCnVIBdapySaa5nfmNqZbPWGCjkIw9/rE0H++1iFtWNdTLmZooRcXwem5dBYTFVciXsG9U/IrZV5hoHcMOcYVx5jpIM0fcJDsIPDoGYfrTX5pT2m8357ct/ZKSwq7CFlJfsULT131C8xr+BitWc/hoCf9T0/lb+LvgpJcFR4zh4oOY8x2lvOEObnC+APvCSOXveh/U858MESeXYE95M07gka4J+lR0glILnn8+cLJFaiQ=
+  distributions: sdist bdist_wheel
   edge: true
   on:
     python: 3.6
