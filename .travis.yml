@@ -1,0 +1,15 @@
+language: python
+python:
+- '2.7'
+- '3.4'
+- '3.5'
+- '3.6'
+- '3.7'
+- '3.8'
+- pypy
+- pypy3
+deploy:
+  provider: pypi
+  user: "__token__"
+  password:
+    secure: JXXfF2Aahf5CzOVK6wGjmmiSBO6AWC0M8bG/6HKVXW7tSQKwFxgxZKux+3zI/GWtXGILKt55PieYKMeDJGHAvnfmS26pOyUrieW+e/DmhAcxjhiuGmz1i3UkqtejUUIh9Pm68R5CSWQkJ0sKqPa9zU9TRomKJwpkeT6sVz1fmy/xeV4gcjgq8M99rBKltVa17lFSFowmq+NktcvUqxz2AQ5GDCt29G+AHlUfhWFbJxlol+J6kpaI9GLbp1ZOqLkP7QKuSREcjzy0iReuaqM4rh83hwzuvOWqZryJUzBT4hycAOJhCUEH5BxnG+9ZZroKUUfu67L1Ouez5YCuATn+NBVMKf187Pxw8iSEroYCwkk/OR+EFfuSIg/Q7ZojkKwOPZYgTU+eGZRUtlzb2M8s7gAolJiEu0CJHsjAj+d6zq6UFaRVpzbhlQ8TXcTPL44x0DXVrctb3oobeEjXZq8dYtTe2SA7Amqbsf9oLluQQT+eHSCYAB1PVuNKKPWvgvDlho2JStSd6KSocVDMX1f9YEkLDCQ4XmP3yFsJGeo52yO/yQDEAu4AbzRT/Jn7N8hIHgXVbZvzTGPU3uxh61o4chR0E2+1j4sHcv4IWpMAZaYUkaFRreRNrorg6bCDKU0iXV9u1nK66zkzIma1aZh1EipsE8iPyGrDSAymsrhz9LE=
