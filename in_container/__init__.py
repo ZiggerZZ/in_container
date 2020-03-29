@@ -1,3 +1,7 @@
-from os.path import exists as _exists
+from os import path as _path
 def in_container():
-    return _exists('/.dockerenv')
+    path = '/proc/self/cgroup'
+    return (
+        _path.exists('/.dockerenv') or
+        _path.isfile(path) and any('docker' in line for line in open(path))
+    )
