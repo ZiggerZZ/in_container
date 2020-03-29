@@ -1,4 +1,4 @@
-# in-container
+# in-container [![Build Status](https://travis-ci.com/ZiggerZZ/in_container.svg?branch=master)](https://travis-ci.com/ZiggerZZ/in_container)
 
 > Allows you to check if you program is running inside a Docker container
 
