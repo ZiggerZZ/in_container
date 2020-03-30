@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="in_container",
-    version="0.3",
+    version="0.4",
     author="Zigfrid Zvezdin",
     author_email="ziggerzz@gmail.com",
     description="Check if running inside a Docker container",
@@ -18,4 +18,5 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
+    python_requires='>=3.6',
 )

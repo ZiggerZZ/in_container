@@ -1,6 +1,8 @@
 language: python
 python:
 - '3.6'
+- '3.7'
+- '3.8'
 script:
 - echo Good
 deploy:
@@ -11,5 +13,4 @@ deploy:
   distributions: sdist bdist_wheel
   edge: true
   on:
-    python: 3.6
     tags: true
