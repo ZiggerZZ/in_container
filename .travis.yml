@@ -12,6 +12,7 @@ install:
   - pip install "." # install package
 script:
   - pytest --rootdir=./tests
+  - pytest --cov-report=xml --cov=myproj tests/
 after_success:
   - codecov  # submit coverage
 deploy:

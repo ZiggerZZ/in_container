@@ -1,4 +1,6 @@
 from os import path as _path
+
+
 def in_container():
     path = '/proc/self/cgroup'
     return (
