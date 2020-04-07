@@ -6,15 +6,16 @@ python:
 before_install:
   - python --version
   - pip install -U pip
-  - pip install -U pytest
-  - pip install codecov
+#  - pip install -U pytest
+  - pip install pytest-cov
 install:
   - pip install "." # install package
 script:
-  - pytest --rootdir=./tests
+#  - pytest --rootdir=./tests
 #  - py.test --cov-report=xml --cov=myproj tests/
 #  - coverage run -m pytest && coverage report tests/test_in_container.py
-  - coverage report
+#  - coverage report
+  - pytest --cov=myproj tests/
 after_success:
   - codecov  # submit coverage
 deploy:
