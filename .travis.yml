@@ -1,25 +1,19 @@
 language: python
 python:
   - '3.6'
-#  - '3.7'
-#  - '3.8'
+  - '3.7'
+  - '3.8'
 before_install:
   - python --version
   - pip install -U pip
-#  - pip install -U pytest
   - pip install pytest-cov
   - pip install codecov
 install:
   - pip install "." # install package
 script:
-#  - pytest --rootdir=./tests
-#  - py.test --cov-report=xml --cov=in_container tests/
-#  - coverage run -m pytest && coverage report tests/test_in_container.py
-#  - coverage report
   - py.test --cov-report term --cov=in_container tests/
 after_success:
   - codecov  # submit coverage
-  #- python -m codecov
 deploy:
   provider: pypi
   user: ZiggerZZ
