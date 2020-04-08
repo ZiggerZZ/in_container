@@ -2,6 +2,8 @@
 
 > Allows you to check if you program is running inside a Docker container
 
+This is a branch with Travis CI deployment on PyPI - check out [this article](https://medium.com/@ziggerzz/deployment-of-python-package-on-pypi-with-travis-on-github-d8aa24ffcdb4).
+
 ## Install
 
 ```
