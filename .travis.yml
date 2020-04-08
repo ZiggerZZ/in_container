@@ -16,7 +16,7 @@ script:
 #  - py.test --cov-report=xml --cov=in_container tests/
 #  - coverage run -m pytest && coverage report tests/test_in_container.py
 #  - coverage report
-  - py.test --cov-report xml --cov=in_container tests/
+  - py.test --cov-report term --cov=in_container tests/
 after_success:
   - codecov  # submit coverage
   #- python -m codecov
