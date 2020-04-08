@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="in_container",
-    version="0.5.2",
+    version="0.6",
     author="Zigfrid Zvezdin",
     author_email="ziggerzz@gmail.com",
     description="Check if running inside a Docker container",
