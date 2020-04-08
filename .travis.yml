@@ -18,7 +18,8 @@ script:
 #  - coverage report
   - py.test --cov-report=xml --cov=in_container tests/
 after_success:
-  - codecov  # submit coverage
+  #- codecov  # submit coverage
+  - python -m codecov
 deploy:
   provider: pypi
   user: ZiggerZZ
